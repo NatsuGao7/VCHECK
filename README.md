@@ -9,4 +9,5 @@ They also provide a [demo](https://segment-anything.com/demo) and you could use 
 
 ## Segmenting Clinically Relevant Parts of the Cornea
 In this step, we utilize traditional computer vision techniques (OpenCV) to segment the parts of the cornea that are of clinical interest.
-The main idea is 
+The main idea is to use the watershed algorithm to segment the desired portion within the cornea, calculate the minimum enclosing circle based on the corneal contour, and use the center and radius of this circle to compute the percentage of the cornea occupied by the segmented part at different ratio.
+We provide a tutorial about our algorithm. Please refer to the "Segment_VCHECK.ipynb" notebook to learn more about our algorithm.
