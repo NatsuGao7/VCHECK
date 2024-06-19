@@ -1,4 +1,4 @@
-#VCHECK Project
+# VCHECK Project
 This project aims to provide an automatic process for segmenting the cornea and analyzing the percentage of the specific parts that clinical personnel are concerned about within the entire cornea.
 
 
